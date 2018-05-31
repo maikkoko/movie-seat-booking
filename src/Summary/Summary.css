@@ -1,0 +1,120 @@
+.summary {
+  background-color: #F5F5F5;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  height: 6px;
+  width: 18px;
+  background-color: #5657F8;
+  margin: 8px 0 24px;
+}
+
+.summary > .image-container {
+  flex: 2;
+  position: relative;
+  color: white;
+  padding: 30px 36px;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.summary > .image-container > .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.summary > .image-container > i {
+  position: absolute;
+  z-index: 2;
+}
+
+.summary > .image-container > i:hover{
+  cursor: pointer;
+}
+
+.summary > .image-container > .watch-button {
+  position: absolute;
+  z-index: 2;
+  bottom: 32%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 80px;
+  padding: 12px 32px;  
+}
+
+.summary > .image-container > .watch-button:hover {
+  cursor: pointer;
+}
+
+.summary > .image-container > .watch-button > i {
+  margin-right: 12px;
+}
+
+.summary > .image-container > .watch-button > div > p {
+  margin: 0;
+  white-space: nowrap;  
+}
+
+.summary > .image-container > .watch-button > div > .sub {
+  color: #aaaaaa;
+}
+
+.summary > .movie-details {
+  flex: 1;
+  padding: 32px 32px 24px;
+}
+
+.summary > .movie-details > p {
+  font-weight: 500;
+}
+
+.summary > .movie-details > h1 {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.summary > .movie-details > .categories {
+  display: flex;
+  margin: 16px 0;
+}
+
+.summary > .movie-details > .categories > span {
+  border: 1px solid #B3B3B3;
+  border-radius: 12px;
+  padding: 2px 8px;
+  color: #B3B3B3;
+}
+
+.summary > .movie-details > .categories > span:hover {
+  cursor: pointer;
+}
+
+.summary > .movie-details > .categories > span:not(:first-child) {
+  margin-left: 12px;
+}
+
+.summary > .meta {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.summary > .meta > p {
+  color: #666666;
+  font-weight: 500;
+  line-height: 24px;
+}
