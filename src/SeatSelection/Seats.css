@@ -1,0 +1,59 @@
+.seats {
+  font-size: 14px;
+  border-bottom:1px solid #EBEBEB;
+  padding-bottom: 16px;
+  box-shadow: 0 8px 6px -6px #CCCCCC;
+}
+
+.section-name {
+  font-weight: 500;
+  color: #999999;
+}
+
+.row {
+  display: flex;
+  padding: 8px 0;
+}
+
+.row span {
+  color: #CCCCCC;
+}
+
+.row > .row-left {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row > .row-right {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.row-left > .seats-list {
+  padding-right: 10px;
+}
+
+.row-right > .seats-list {
+  padding-left: 10px;
+}
+
+.seats-list {
+  display: flex;
+}
+
+.seats-list > .seat-item {
+  width: 30px;
+  height: 30px;
+  background-color: #999999;
+  margin: 0 8px;
+  border-radius: 8px;
+}
+
+.seats-list > .seat-item:hover {
+  cursor: pointer;
+}

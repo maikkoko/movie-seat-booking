@@ -1,0 +1,10 @@
+.seat-selection {
+  flex-grow: 1;
+}
+
+.content {
+  max-width: 800px;
+  background: white;
+  margin: 0 auto;
+  padding: 36px;
+}

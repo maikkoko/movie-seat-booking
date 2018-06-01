@@ -1,0 +1,13 @@
+.screen {
+  height: 80px;
+  width: 100%;
+  background-color:#EDF8FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.screen > p {
+  color: #DCE4E7;
+}

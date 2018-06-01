@@ -1,0 +1,20 @@
+.header {
+  width: 80%;
+  margin: 0 auto 42px;
+  display: flex;
+  align-items: center;
+}
+
+.header > .form {
+  flex: 1;
+}
+
+.header > .form:last-child {
+  padding-left: 36px;
+}
+
+.header > .vertical-divider {
+  width: 3px;
+  background-color: #eaeaea;
+  height: 36px;
+}

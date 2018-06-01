@@ -1,0 +1,27 @@
+
+.select:hover {
+  cursor: pointer;
+}
+
+.select > p {
+  color: #555555;
+  margin: 0;
+  font-weight: 500;
+}
+
+.select > div {
+  margin-top: 12px;
+  color: #5657F8;
+  display: flex;
+  align-items: center;
+}
+
+.select > div > span {
+  padding-right: 24px;
+  font-weight: 500;
+}
+
+.select > div > i {
+  color: #999999;
+  margin-top: -4px;
+}
