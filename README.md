@@ -3,6 +3,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## \#100DaysOfCode
 
-### Day 1 - ?
+### Day 1 - 3
 
 Based on design by Amit Chakravorty: [https://www.uplabs.com/posts/movie-seat-booking](https://www.uplabs.com/posts/movie-seat-booking)
