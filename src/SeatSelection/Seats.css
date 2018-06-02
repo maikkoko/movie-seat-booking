@@ -15,8 +15,8 @@
   padding: 8px 0;
 }
 
-.row span {
-  color: #CCCCCC;
+.row .row-name {
+  color: #AAAAAA;
 }
 
 .row > .row-left {
@@ -47,11 +47,30 @@
 }
 
 .seats-list > .seat-item {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   background-color: #999999;
   margin: 0 8px;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7pt;
+  color: #CCCCCC;
+  border: none;
+}
+
+.seats-list > .seat-item:focus {
+  outline: none;
+}
+
+.seats-list > .unavailable {
+  background-color: #eaeaea !important; 
+}
+
+.seats-list > .selected {
+  background-color: #5657F8 !important;
+  color: white !important;
 }
 
 .seats-list > .seat-item:hover {
